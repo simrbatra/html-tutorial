@@ -1,0 +1,109 @@
+# structure of HTML Webpage 
+<html>
+    <head>
+        <title>    </title>
+    </head>
+    <body> 
+    </body>
+</html>
+
+<!--tag-->
+heading tag  <h1> </h1>,,,,<h6> </h6>
+comments  <!---->
+paragraph tag <p>  </p>
+break tag  <br>
+
+<!--add link to your website-->
+<a href ="1" target ="_blank"> </a>
+
+<!--image tag -->
+<img  src =" "  alt=""/>
+
+<!--list tag-->
+orderded
+<ol type ="a">
+    <li>item1</li>
+    <li>item2</li>
+</ol>
+unordered
+<ul style ="list-style: disc;">
+    <li>item1</li>
+    <li>item2<li>
+</ul>
+discription list 
+<dl>
+    <dt>guitar<dt>
+        <dd>guitar is 6 string </dd>
+
+<!--text formating-->
+<b>  </b>                               bold
+<strong>  </strong>                     bold 
+<i>   </i>                              italic
+<em>  </em>                             italic 
+<del> </del>                            delete
+<sub>  </sub>     
+<sup>  </sup>                            power
+
+<!--table-->
+<table border ="1">
+    <thread>
+        <tr>
+            <th>first number </th>
+            <th>last number</th>
+        </tr>
+    </thread>
+    <tbody>
+        <tr>
+            <td>harshit</td>
+            <td>vanshika</td>
+        </tr>
+        <tr>
+            <td> harshit</td>
+            <td> vanshika</td>
+        </tr>
+    </tbody>
+</table>
+
+<!--forms-->
+<form>
+    <label for ="username">Username: </label>
+    <input type ="text" id ="username" placeholder="username" required>  <br> <br>
+    <label for ="password"> Password: </label>
+    <input type ="password" id="password" placeholder="password" required> <br>  <br>
+    <label for ="email"> Email:</label>
+    <input type ="email"  id ="email" placeholder="email" required> <br>  <br>
+
+    <p>select your gender</p>
+    <label for ="male">Male </label>
+    <input type ="radio" name="gender" id="male" value="male"> <br>
+    <label for ="female">Female </label>
+    <input type ="radio" name ="gender" id ="female" value ="female"> <br>
+    <label for ="other">other</label>
+    <input type ="radio" name="gender" id ="other" value =""> <br>
+    <br> <br>
+
+    <input type ="submit" value="sign in">
+</form>
+<!--html element-->
+<form>
+    <p>comment below</p>
+    <textarea name="" id="" cols="30" rows="10" placeholder="type here"></textarea>
+    <br>
+    pick color : <input type ="color" name="" id=""><br>
+    Date : <input type ="date" name ="" id="" ><br>
+    <input type ="file" name="" id="" >
+</form>
+<!--html semantic element-->
+<article>
+<aside>
+<details>
+<figcaption>
+<figure>
+<footer>
+<header>
+<main>
+<mark>
+<nav>
+<section>
+<summary>
+<time>
